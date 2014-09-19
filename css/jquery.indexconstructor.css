@@ -1,0 +1,120 @@
+/* ----- index constructor ----- */
+#index-constructor ul, #index-constructor li, ul#index-constructor{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#index-constructor{
+    position: fixed;
+}
+
+
+ul#index-constructor li a {
+    display: block;
+    color: #999;
+    line-height: 1.3em;
+}
+
+ul#index-constructor > li > ul> li a:before {
+    content: "・";
+}
+
+ul#index-constructor li a:hover,
+ul#index-constructor li a.stay {
+    border-left: 1px solid #4d7af9;
+    color: #4d7af9;
+    display: block;
+    text-decoration: none;
+}
+ul#index-constructor li a.stay {
+    border-left-width: 1px;
+}
+
+ul#index-constructor > li > a {
+    padding: 5px 0px 5px 18px;
+}
+ul#index-constructor > li > a:hover {padding-left: 17px;}
+ul#index-constructor > li > a.stay {padding-left: 17px;}
+
+ul#index-constructor > li > ul {
+    margin-bottom: 10px;
+}
+
+ul#index-constructor > li > ul li a {
+    font-size: 0.9em;
+    padding: 3px 0px 3px 30px;
+}
+
+ul#index-constructor > li > ul li a:hover,
+ul#index-constructor > li > ul li a.stay {
+    padding-left: 29px;
+}
+ul#index-constructor > li > ul > li > ul li a {
+    padding-left: 42px;
+}
+ul#index-constructor > li > ul > li > ul li a:hover,
+ul#index-constructor > li > ul > li > ul li a.stay {
+    padding-left: 41px;
+}
+ul#index-constructor > li > ul > li > ul > li > ul li a {
+    padding-left: 54px;
+}
+ul#index-constructor > li > ul > li > ul > li > ul li a:hover,
+ul#index-constructor > li > ul > li > ul > li > ul li a.stay {
+    padding-left: 53px;
+}
+.nav-index > ul{
+    padding: 0;
+}
+.nav-index > ul > li{
+    list-style: none;
+    padding-left: 0;
+}
+.nav-index.fixed {
+    position: fixed;
+    top: 80px;
+    width: 222px;
+}
+.toTop > a {
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    border-radius: 5px;
+}
+.toTop > a:hover {
+    color: #4d7af9;
+    border-color: #4d7af9;
+    text-decoration: none;
+}
+
+/*.toBasic a {
+    margin: 5px 0 0 0;
+    color: #4cd14c;
+    border: 1px solid #4cd14c;
+    border-radius: 5px;
+}
+.toBasic a:hover, .toAdvance a:hover, .toOut a:hover {
+    color: #555;
+    border-color: #555;
+    background-color: #fff;
+    transition-property: background-color, color;
+    transition-duration: 0.237s;
+    transition-timing-function: ease-in;
+}
+
+.toAdvance a {
+    margin: 5px 0 0 0;
+    color: #d44f4f;
+    border: 1px solid #d44f4f;
+    border-radius: 5px;
+}
+
+.toOut a {
+    margin: 5px 0 20px 0;
+    color: #935bc9;
+    border: 1px solid #935bc9;
+    border-radius: 5px;
+}*/
